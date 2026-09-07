@@ -214,5 +214,42 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# =========================
+# R
+# =========================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Research data - DO NOT COMMIT
+# =========================
+data/
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.rds
+*.RData
+
+# =========================
+# Generated outputs
+# =========================
+output/
+results/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
 # Streamlit
 .streamlit/secrets.toml
